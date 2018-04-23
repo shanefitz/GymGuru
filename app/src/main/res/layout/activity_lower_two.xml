@@ -26,6 +26,7 @@
             android:id="@+id/deadliftBtn"
             android:layout_width="200dp"
             android:layout_height="match_parent"
+            android:onClick="onClickSend_1"
             android:text="deadlift 3x8" />
 
         <ImageView
@@ -70,6 +71,7 @@
             android:layout_width="200dp"
             android:layout_height="match_parent"
             android:layout_weight="0"
+            android:onClick="onClickSend_2"
             android:text="db romanian deadlift 3x10" />
 
         <ImageView
@@ -97,6 +99,7 @@
             android:id="@+id/aabductionBtn"
             android:layout_width="200dp"
             android:layout_height="match_parent"
+            android:onClick="onClickSend_4"
             android:text="Abduction Machine 3x12" />
 
         <ImageView
@@ -124,6 +127,7 @@
             android:id="@+id/calfRaiseBtn"
             android:layout_width="200dp"
             android:layout_height="match_parent"
+            android:onClick="onClickSend_5"
             android:text="Calf Raises 3xfailure" />
 
         <ImageView
@@ -152,6 +156,7 @@
             android:id="@+id/legPressBtn"
             android:layout_width="200dp"
             android:layout_height="match_parent"
+            android:onClick="onClickSend_3"
             android:text="Leg press 3x10" />
 
         <ImageView
