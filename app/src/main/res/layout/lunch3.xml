@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="ie.ul.sendmessage.send">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="10dp"
+        android:text="Sample Lunch Three"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="90dp"
+            android:layout_height="65dp"
+            android:layout_weight="40"
+            android:contentDescription="tuna"
+            android:src="@drawable/tuna" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="235dp"
+            android:layout_height="65dp"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="
+2 slices bread, 8 oz turkey breast, 1 thin slice cheese"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="90dp"
+            android:layout_height="65dp"
+            android:layout_weight="40"
+            android:contentDescription="grapes"
+            android:src="@drawable/grapes" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="235dp"
+            android:layout_height="65dp"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="GRAPES 1 SMALL SERVING"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:text="MACROS: \n\n\u2022 650 calories\n\u2022 55g protein \n\u2022 80g carbs \n\u2022 10g fat\n\nAdjust portions to suit your needs"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

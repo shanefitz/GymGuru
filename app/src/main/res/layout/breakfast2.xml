@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="ie.ul.sendmessage.send">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="10dp"
+        android:text="Sample Brekfast Two"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:contentDescription="waffles"
+            android:src="@drawable/waffles" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="WHOLE-GRAIN WAFFLES 4"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:contentDescription="syrup"
+            android:src="@drawable/syrup" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="PURE MAPLE SYRUP 2 TBSP "
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:contentDescription="cheese"
+            android:src="@drawable/cottage_cheese" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="LOW-FAT COTTAGE CHEESE 1 CUP"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:contentDescription="strawberries"
+            android:src="@drawable/strawberries" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="STRAWBERRIES 1 CUP"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:text="MACROS: \n\n\u2022 625 calories\n\u2022 40g protein \n\u2022 90g carbs \n\u2022 6g fat"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

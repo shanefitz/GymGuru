@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "528390883754",
+    "firebase_url": "https://gym-guru.firebaseio.com",
+    "project_id": "gym-guru",
+    "storage_bucket": "gym-guru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528390883754:android:b28ec36b90413358",
+        "android_client_info": {
+          "package_name": "ie.gg.gymguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528390883754-ejcq8rrp3pvd0q46um8ufntqcb9ukr3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.gg.gymguru",
+            "certificate_hash": "d686b39d091cfdc0eb08f65e7a871e55a0ce32cc"
+          }
+        },
+        {
+          "client_id": "528390883754-rv38j8kfuafb5l6ohm8bfve6jj8jlvi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo7vq6_kdoL5qb1vwoCSiP7ZsSqx1PjQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528390883754-rv38j8kfuafb5l6ohm8bfve6jj8jlvi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

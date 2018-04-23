@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="b1"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Breakfast One" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="b2"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Breakfast Two" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="b3"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Breakfast Three" />
+
+
+    <Button
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="l1"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Lunch One" />
+
+    <Button
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="l2"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Lunch Two" />
+
+    <Button
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="l3"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Lunch Three" />
+
+
+    <Button
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="d1"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Dinner One" />
+
+
+    <Button
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="d2"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Dinner Two" />
+
+    <Button
+        android:id="@+id/d3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="d3"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Sample Dinner Three" />
+</LinearLayout>
+    </ScrollView>
+
