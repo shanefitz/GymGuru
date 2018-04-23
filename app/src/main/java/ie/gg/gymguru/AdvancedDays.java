@@ -15,7 +15,7 @@ public class AdvancedDays extends AppCompatActivity {
 
         Button pushBtn = (Button) findViewById(R.id.pushBtn);
         Button pullBtn = (Button) findViewById(R.id.pullBtn);
-        Button legBtn = (Button) findViewById(R.id.legBtn);
+        //Button legBtn = (Button) findViewById(R.id.legBtn);
 
         pushBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,13 +33,7 @@ public class AdvancedDays extends AppCompatActivity {
             }
         });
 
-        legBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent int3 = new Intent(AdvancedDays.this, LegDay.class);
-                startActivity(int3);
-            }
-        });
+
     }
 
 }
