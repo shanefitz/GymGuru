@@ -30,9 +30,9 @@ public class PushDay extends AppCompatActivity {
         Intent int1 = new Intent(this, exercise.class);
         Bundle extras = new Bundle();
         extras.putInt("EXTRA_MESSAGE", 3);
-        extras.putString("EXTRA_IMAGE", "bench_press");
+        extras.putString("EXTRA_IMAGE", "barbell_bench_press");
         extras.putString("EXTRA_NAME", "Incline Bench Press");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "incline_bench");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -45,7 +45,7 @@ public class PushDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "barbell_over_head_press");
         extras.putString("EXTRA_NAME", "Over Head Press");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "barbell_over_head_press");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -58,7 +58,7 @@ public class PushDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "triceps_push_down");
         extras.putString("EXTRA_NAME", "Tricep Extension");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "triceps_push_down");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -71,7 +71,7 @@ public class PushDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "lateral_raise");
         extras.putString("EXTRA_NAME", "Lateral Rasies");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "lateral_raise");
 
         int1.putExtras(extras);
         startActivity(int1);

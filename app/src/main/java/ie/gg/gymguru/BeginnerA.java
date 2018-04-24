@@ -34,7 +34,7 @@ public class BeginnerA extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "barbellsquat");
         extras.putString("EXTRA_NAME", "Squat");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "barbellsquat");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -47,7 +47,7 @@ public class BeginnerA extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "barbell_bent_over_row");
         extras.putString("EXTRA_NAME", "Bent Over Row");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "barbell_bent_over_row");
 
         int1.putExtras(extras);
         startActivity(int1);

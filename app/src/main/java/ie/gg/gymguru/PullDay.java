@@ -19,7 +19,7 @@ public class PullDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 3);
         extras.putString("EXTRA_IMAGE", "barbell_deadlift");
         extras.putString("EXTRA_NAME", "Deadlift");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "barbell_deadlift");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -32,7 +32,7 @@ public class PullDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "tbar_row");
         extras.putString("EXTRA_NAME", "T-bar Row");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "tbar_row");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -45,7 +45,7 @@ public class PullDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "pull_up");
         extras.putString("EXTRA_NAME", "Wide Grip Pull Up");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "pull_up");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -58,7 +58,7 @@ public class PullDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "dumbbell_row");
         extras.putString("EXTRA_NAME", "Single Arm Row");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "dumbbell_row");
 
         int1.putExtras(extras);
         startActivity(int1);
@@ -71,7 +71,7 @@ public class PullDay extends AppCompatActivity {
         extras.putInt("EXTRA_MESSAGE", 5);
         extras.putString("EXTRA_IMAGE", "dumbbell_alternate_biceps_curl");
         extras.putString("EXTRA_NAME", "Dumbbell Curls");
-        extras.putString("EXTRA_CODE", "bench_press");
+        extras.putString("EXTRA_CODE", "dumbbell_alternate_biceps_curl");
 
         int1.putExtras(extras);
         startActivity(int1);

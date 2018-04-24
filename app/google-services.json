@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "528390883754-2lcp9mcssgcg84g3deis5j0d9ablcd2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.gg.gymguru",
+            "certificate_hash": "f002306e2ebe1e5c6512876e717149d55ab26327"
+          }
+        },
+        {
           "client_id": "528390883754-ejcq8rrp3pvd0q46um8ufntqcb9ukr3f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

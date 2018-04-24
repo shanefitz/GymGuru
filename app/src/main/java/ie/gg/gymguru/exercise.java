@@ -115,12 +115,13 @@ public class exercise extends AppCompatActivity implements LocationListener {
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         //numberOfSets = 5;
-        exercise = extras.getString("EXTRA_CODE");
+
         //exercise = "bench_press";
 
         //exercise = extras.getString("EXTRA_MESSAGE");
         numberOfSets = extras.getInt("EXTRA_MESSAGE");
         String op = extras.getString("EXTRA_NAME");
+        exercise = extras.getString("EXTRA_CODE");
         String op1 = extras.getString("EXTRA_IMAGE");
 
         activity = this;
@@ -467,10 +468,9 @@ public class exercise extends AppCompatActivity implements LocationListener {
             @Override
             public void onClick(View view){
 
-                if (pressed < rowChanged)
-                {
+
                     pressed++;
-                }
+                
 
                 if(pressed >0)
                 {
